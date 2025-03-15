@@ -90,3 +90,6 @@ int main()  {
     printf("Densidade Populacional: carta %d venceu (%d)\n", (densidade1 < densidade2) ? 1 : 2, (densidade1 < densidade2));
     printf("PIB per Capita: carta %d venceu (%d)\n", (pib1 > pib2) ? 1 : 2, (pib1 > pib2));
     printf("Super Poder: carta %d venceu (%d)\n", (superpoder1 > superpoder2) ? 1 : 2, (superpoder1 > superpoder2));
+return 0;
+
+}
