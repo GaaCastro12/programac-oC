@@ -23,7 +23,7 @@ printf("Digite a letra do estado seguida de um número de 01 a 04:\n " );
 scanf("%9s", &Codigocarta1);
 
 printf("Digite o nome da cidade:\n");
-getchar(); // Limpa buffer antes de fgets(
+getchar(); // Limpa buffer antes de fgets
 fgets(nomedacidade1, sizeof(nomedacidade1), stdin);
 
 
@@ -60,7 +60,7 @@ printf("Digite a letra do estado seguida de um número de 01 a 04: ");
 scanf("%9s", &Codigocarta2);
 
 printf("Digite o nome da cidade:\n");
-getchar(); // Limpa buffer antes de fgets(
+getchar(); // Limpa buffer antes de fgets
 fgets(nomedacidade2, sizeof(nomedacidade2), stdin);
 
 printf("Digite a população da cidade:\n");
