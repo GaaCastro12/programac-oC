@@ -270,4 +270,6 @@ if (superpoder1 > superpoder2) {
 printf("\n");
 
 return 0;
+ }
+
 
